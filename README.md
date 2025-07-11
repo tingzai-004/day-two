@@ -11,13 +11,21 @@
 ### 功能介绍
 - 可以实现用键盘方向键移动蛇的身体，吃到苹果，蛇的尾巴就会加长，利用最简单的代码去实现贪吃蛇这个游戏
 
-### 运行方法
-- 下载vscode 在vscode中安装Python插件
-- 获取该项目源码
-- 在vscode或者其他Python编译软件中打开该文件，点击项目脚本运行
+### 运行环境
+- python 3.17版
+- Python 3.11/3.12
+  
+- 环境下载和模块下载
 
-# [点击下载vscode](https://code.visualstudio.com/docs/?dv=win64user) (Windows版)
-# [点击下载vscode](https://code.visualstudio.com/docs/?dv=osx) (Mac版)
+```bash
+环境下载 > https://www.python.org/downloads/
+
+turtle模块下载 > pip install turtle
+
+openpyxl 模块下载 >pip install openpyxl
+
+random 模块下载 > pip install random
+```
 
 
 ### 游戏效果
@@ -26,7 +34,7 @@
 !<img width="489" height="659" alt="Image" src="https://github.com/user-attachments/assets/77262a7f-b1b8-4063-9e23-7a1b55c48dff" />
 
 ### 游戏规则
-- 玩家需按键盘`w`, `s` ,`a`,`d`操控蛇的身体吃到苹果，而不使蛇头撞到墙壁，吃苹果过后会使蛇的身体+1，蛇的身体会无限延长
+- 玩家需按键盘`w`, `s` ,`a`,`d`操控蛇的身体吃到苹果，蛇头撞到墙壁后游戏失败，吃苹果过后会使蛇的身体+1，蛇的身体会无限延长
 
 ## 部署
 > [!WARNING]
@@ -36,3 +44,5 @@
 ```bash
 > https://github.com/tingzai-004/day/archive/refs/heads/main.zip
 ```
+### 作者
+> 婷仔
